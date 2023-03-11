@@ -72,8 +72,7 @@ const COMMON_CONFIG = {
 					MethodDefinition: true
 				}
 			}
-		],
-		'import/no-extraneous-dependencies': WARN
+		]
 	}
 };
 
