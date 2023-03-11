@@ -6,7 +6,11 @@
 	"repository": "https://github.com/capricorn86/happy-dom",
 	"author": "David Ortner",
 	"description": "Happy DOM is a JavaScript implementation of a web browser without its graphical user interface. It includes many web standards from WHATWG DOM and HTML.",
-	"main": "lib/index.js",
+	"main": "lib/index.mjs",
+	"types": "lib/index.d.ts",
+	"files": [
+		"lib"
+	],
 	"keywords": [
 		"jsdom",
 		"dom",
@@ -20,7 +24,8 @@
 		"w3c"
 	],
 	"publishConfig": {
-		"access": "public"
+		"access": "public",
+		"publishBranch": "kwoka-version"
 	},
 	"scripts": {
 		"compile": "tsc",
